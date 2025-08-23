@@ -1,0 +1,12 @@
+p{
+    background-color: deepskyblue;
+    border: 1px solid black;
+}
+#pic{
+    background-color: rgb(255, 20, 247);
+    border: 1px solid red;
+}
+#gift{
+    background-color: aquamarine;
+    border: 1 px solid grey;
+}
