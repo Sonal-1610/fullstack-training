@@ -1,0 +1,17 @@
+#body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    height: 100vh;
+    width: 100vw;
+}
+#abc{
+background-color: aqua;
+width: 50%;
+height: 50%;
+}
+#abcd{
+background-color: aquamarine;
+width: 50%;
+height: 50%;
+}
