@@ -1,0 +1,11 @@
+.container{
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 100px;
+    /* display: inline-block; */
+}
+#parent-container{
+    display: flex;
+    justify-content: center;
+}

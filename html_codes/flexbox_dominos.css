@@ -1,0 +1,16 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+#header{
+    background-color: #cb3131;
+}
+
+#sec{
+    display: flex;
+    justify-content: center;
+}
+#div{
+    display: inline-block;
+}
