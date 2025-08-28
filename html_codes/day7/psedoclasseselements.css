@@ -1,0 +1,24 @@
+/* input{
+    outline:none;
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px cornflowerblue;
+}
+input:focus{
+    border: 3px solid hotpink;
+    color: aquamarine;
+} */
+
+#container{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: 2s ease-in-out;
+}
+
+#container:hover{
+    width: 210px;
+    height: 210px;
+    background-color: hotpink;
+    border-radius: 50%;
+}

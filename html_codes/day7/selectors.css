@@ -1,0 +1,28 @@
+/* #container, #box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+} */
+/* group css */
+/* 
+div p,p {
+   color: darksalmon; 
+} */
+/* 
+#container p{
+    color: blueviolet;
+} */
+/* 
+div>p{
+color: crimson;
+} */
+
+span+p{
+    color: rgb(51, 20, 255);
+}
+
+h1~p{
+    color: hotpink;
+}
+
