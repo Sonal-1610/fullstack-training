@@ -1,0 +1,132 @@
+/* input{
+height: 100px;
+width: 100px;
+}
+
+input:focus{
+    background-color: bisque;
+    color: brown;
+}
+
+input::placeholder{
+    color:aqua
+}
+p::selection{
+    background-color: violet;
+    color: pink;
+}
+::selection{
+     background-color: violet;
+    color: pink;
+} */
+
+/* 
+p:hover::before{
+    content: "hello techno";
+    background-color: bisque;
+}
+
+p:hover::after{
+    content: "bye techno";
+    background-color: bisque;
+}
+
+p::before{
+    content: " ";
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    margin-right: 8px;
+    position: relative;
+    top: -4px;
+
+}
+p::after{
+    content: " ";
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    margin-left: 8px;
+    position: relative;
+    top: -4px;
+
+} */
+p::first-letter{
+    color: aquamarine;
+    font-size: 30px;
+}
+
+p::first-line{
+    color: pink;
+    font-size: 20px;
+}
+/* 
+#container{
+    
+    height: 400px;
+    background-color:bisque ;
+    position: relative;
+
+}
+#baccha{
+    width: 100px;
+    height: 100px;
+    background-color:pink;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+} */
+/* #baccha{
+    width: 95vw;
+    height: 100vh;
+} */
+/* #container{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(26, 247, 247) ;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+
+} */
+body{
+    position-try: relative;
+}
+
+
+#container{
+  
+    width: 100px;
+    height: 100px;
+    /* transform: scale(2); */
+    translate: rotateX(90deg);
+    background-color: blueviolet;
+}
+
+#box{
+    
+
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    z-index: 1;
+}
+
+#item{
+   
+
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+div{
+    position: absolute;
+    top: 0;
+}
