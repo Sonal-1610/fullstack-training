@@ -76,7 +76,7 @@
 
 //block-let const,global-var,functional-var,
 
-//hoisiting
+//hoisiting- if you can access your variable before declaring it then this behavior is called hoisiting
 
 console.log(a);
 let a="shubbham";
