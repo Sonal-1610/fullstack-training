@@ -4,7 +4,7 @@
 // console.log(this);
 // console.log(document.getElementById("container"));
 
-let mydiv=document.getElementById("container");
+// let mydiv=document.getElementById("container");
 // mydiv.id="box";
 // console.log(mydiv.className);
 // mydiv.className="header";
@@ -43,22 +43,28 @@ let mydiv=document.getElementById("container");
 // newpara.innerHTML="<ul><li>first element</li></ul>"
 // newpara.innerText="<ul><li>first element</li></ul>"
 
-let newdivs=Array.from(mydiv);
-console.log(newdivs);
-for(let i=0;i<mydiv.clientHeight;i++){
-    if(i%2==0){
-        mydiv[i].style.background="red";
-    }
-    else{
-        mydiv[i].style.background="yellow";
-    }
-    mydiv[i].style.padding="10px";
-}
+// let newdivs=Array.from(mydiv);
+// console.log(newdivs);
+// for(let i=0;i<mydiv.clientHeight;i++){
+//     if(i%2==0){
+//         mydiv[i].style.background="red";
+//     }
+//     else{
+//         mydiv[i].style.background="yellow";
+//     }
+//     mydiv[i].style.padding="10px";
+// }
 
-newdivs.map((item)=>{
-    item.style.background="pink";
-})
-let arr=[10,20,30];
+// newdivs.map((item)=>{
+//     item.style.background="pink";
+// })
+
+//queryselector
+//queryselectorall
+let mydiv=document.querySelectorAll("#item");
+let mydiv1=document.querySelectorAll(".container");
+let mydiv2=
+
 
 
 
