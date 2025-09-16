@@ -44,6 +44,12 @@
 //     console.log("hello world");
 // },2000)
 
-setInterval(()=>{
+
+
+let interval=setInterval(()=>{
      console.log("hello world");
 },2000)
+
+setTimeout(()=>{
+    clearInterval(interval)
+})
