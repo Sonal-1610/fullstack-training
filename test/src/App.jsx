@@ -3,14 +3,20 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Home'
+import Card from './Card'
+
 function App() {
   const [count, setCount] = useState(0)
-
+  
+  let pName="Samsung S24 Ultra";
   return (
 
-    <div>
-       <Home />
-        <Home />
+    <div className='container'>
+      
+        <Card title={pName} description="This is s series of samsung" image="https://tse3.mm.bing.net/th/id/OIP.t5i7y3B3ozp4L5F_trymRQHaId?pid=Api&P=0&h=180" />
+
+         <Card title={pName} description="This is s series of vivo" image="https://tse4.mm.bing.net/th/id/OIP.Pv413ZU7i-oYEtElc8dgNwHaOr?pid=Api&P=0&h=180" />
+
     </div>
     // <>
     //   <div>
