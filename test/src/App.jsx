@@ -16,6 +16,7 @@ function App() {
         <Card title={pName} description="This is s series of samsung" image="https://tse3.mm.bing.net/th/id/OIP.t5i7y3B3ozp4L5F_trymRQHaId?pid=Api&P=0&h=180" />
 
          <Card title={pName} description="This is s series of vivo" image="https://tse4.mm.bing.net/th/id/OIP.Pv413ZU7i-oYEtElc8dgNwHaOr?pid=Api&P=0&h=180" />
+         <Card />
 
     </div>
     // <>
