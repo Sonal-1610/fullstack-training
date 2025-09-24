@@ -4,22 +4,23 @@ import viteLogo from '/vite.svg'
 import './App.css'
 // import Home from './Home'
 import Card from './Card'
+import Login from './Login'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
   
-  let pName="Samsung S24 Ultra";
-  return (
+  // let pName="Samsung S24 Ultra";
+  // return (
 
-    <div className='container'>
+  //   <div className='container'>
       
-        <Card title={pName} description="This is s series of samsung" image="https://tse3.mm.bing.net/th/id/OIP.t5i7y3B3ozp4L5F_trymRQHaId?pid=Api&P=0&h=180" />
+  //       <Card title={pName} description="This is s series of samsung" image="https://tse3.mm.bing.net/th/id/OIP.t5i7y3B3ozp4L5F_trymRQHaId?pid=Api&P=0&h=180" />
 
-         <Card title={pName} description="This is s series of vivo" image="https://tse4.mm.bing.net/th/id/OIP.Pv413ZU7i-oYEtElc8dgNwHaOr?pid=Api&P=0&h=180" />
-         <Card />
-         <Card />
+  //        <Card title={pName} description="This is s series of vivo" image="https://tse4.mm.bing.net/th/id/OIP.Pv413ZU7i-oYEtElc8dgNwHaOr?pid=Api&P=0&h=180" />
+  //        <Card />
+  //        <Card />
 
-    </div>
+  //   </div>
     // <>
     //   <div>
     //     <a href="https://vite.dev" target="_blank">
@@ -42,6 +43,11 @@ function App() {
     //     Click on the Vite and React logos to learn more
     //   </p>
     // </>
+  // )
+  return(
+    <div>
+    < Login />
+    </div>
   )
 }
 
