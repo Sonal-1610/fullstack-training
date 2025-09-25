@@ -1,10 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-// import Home from './Home'
-import Card from './Card'
-import Login from './Login'
+import { RouterProvider } from "react-router-dom";
+// import Card from "./Card";
+
+// import Effect from "./Effect";
+
+// import Login from "./Login";
+// import Navbar from "./Navbar";
+// import Router from "./Router";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -46,7 +47,7 @@ function App() {
   // )
   return(
     <div>
-    < Login />
+    <RouterProvider router={Router} />
     </div>
   )
 }
