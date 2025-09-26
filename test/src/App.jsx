@@ -1,11 +1,11 @@
 import { RouterProvider } from "react-router-dom";
-// import Card from "./Card";
+import Card from "./Card";
 
-// import Effect from "./Effect";
+import Effect from "./Effect";
 
-// import Login from "./Login";
-// import Navbar from "./Navbar";
-// import Router from "./Router";
+import Login from "./Login";
+import Navbar from "./Navbar";
+import Router from "./Router";
 
 function App() {
   // const [count, setCount] = useState(0)
